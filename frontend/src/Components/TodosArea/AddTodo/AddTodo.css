@@ -1,0 +1,21 @@
+.AddTodo > form {
+    width: 300px;
+    padding: 5px;
+	
+}
+
+.AddTodo >form> h4 {
+    text-align: center;
+    margin-bottom: 10px;
+    
+	
+}
+
+
+.AddTodo > form > button{
+    width: 100px;
+    float: right;
+    
+	
+}
+

@@ -1,0 +1,20 @@
+.Layout {
+    height: 100%;
+    box-sizing: border-box; /* Real with and height */
+    display: grid;
+    grid-template-rows: 13% 80% 7%;
+    grid-template-columns: 10% 90%; /* fr = Fraction = יחידת מידה אחת */
+}
+
+.Layout > header, .Layout > footer {
+    grid-column: span 6; /* span = מתפרש */
+}
+
+.Layout > main {
+    grid-column: span 5;
+    overflow: auto;
+}
+
+.Layout, .Layout > * {
+    border: 1px solid black;
+}

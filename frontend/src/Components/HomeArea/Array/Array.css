@@ -1,0 +1,14 @@
+
+.Array {
+    color:chocolate
+
+}
+
+
+.Array img{
+    width: 300px;
+    height: 300px;   
+    border-radius: 10px;
+    object-fit: cover;
+	
+}
